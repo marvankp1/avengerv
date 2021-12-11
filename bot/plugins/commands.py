@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/marvankp15"
+                                    'Link our channel', url="https://t.me/marvankp15"
                                 )
                         ]
                     ]
@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/marvankp15'),
+        InlineKeyboardButton('🔰 Developers channel🔰', url='https://t.me/marvankp15'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/marvankp1/avengerv')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/marvankp15')
